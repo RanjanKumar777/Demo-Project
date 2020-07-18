@@ -1,0 +1,140 @@
+.import-overlay {
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(82, 109, 126, 0.6);
+
+    .app-overlay.sync-app-overlay {
+        width: 609px;
+    }
+
+    .app-overlay {
+        width: 50%;
+        height: 100%;
+        background: #ffffff;
+        position: fixed;
+        top: 0;
+        right: 0;
+    }
+
+    .closed-btn {
+        width: 20px;
+        height: 20px;
+        left: -44px;
+        top: 18px;
+    }
+}
+
+.over-auto {
+    overflow-y: scroll;
+    overflow-x: hidden;
+    height: 100%;
+    padding: 40px;
+}
+
+.over-auto1 {
+    margin-bottom: 40px;
+    justify-content: flex-start;
+    flex-direction: column;
+    display: flex;
+}
+
+.color-green {
+    color: #03976E !important;
+    margin-bottom: 40px;
+}
+
+.text-color-3 {
+    color: #A4A4A4;
+}
+
+.enter-option-key {
+    width: 530px;
+    height: 35px;
+    background: #ffffff;
+    border: 1px solid rgba(148, 151, 155, 0.3);
+    vertical-align: middle;
+    padding-left: 8px;
+}
+
+.dropzone {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.upload-file-data {
+    width: 160px;
+    height: 160px;
+    border-radius: 8px;
+    border: 1.5px solid #03976E;
+    padding: 41px 33px;
+    background: white;
+  }
+
+  .upload1 {
+      margin-right: auto;
+      justify-content: center;
+      display: flex;
+  }
+
+  .text-center {
+    text-align: center;
+  }
+
+  .text-color-2 {
+    color: #686868 !important;
+  }
+
+  .save-button {
+      display: flex;
+      margin: auto;
+      justify-content: end;
+      margin-bottom: 15px;
+  }
+
+  
+.text-area-measure {
+    min-height: 70px;
+    box-shadow: none;
+    font-family: "Public Sans",
+    sans-serif;
+    font-size: 14px !important;
+    font-weight: 500 !important;
+    line-height: 27px !important;
+    color: #555555 !important;
+    padding: 8px;
+  }
+
+.mr-auto {
+    margin: 0 auto;
+}
+
+.align-drop {
+    margin-left: 180px;
+}
+
+.upload-file-data:focus {
+    border: 1.5px solid #03976E;
+}
+
+.close-icon {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    cursor: pointer;
+    color: #03976E;
+}
+
+.file-name {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 24px;
+}

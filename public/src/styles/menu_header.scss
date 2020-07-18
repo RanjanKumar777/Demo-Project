@@ -1,0 +1,33 @@
+.menu-header {
+    background-color: #ffffff;
+    box-shadow: 1px 0px 10px rgba(0, 0, 0, 0.1277);
+    width: 100%;
+    position: relative;
+    top: 57px;
+    .menu-nav-header {
+        margin: 0px 32px;
+        height: 47px;
+    }
+}
+
+.ginie-btn {
+    background-color: #03976E;
+    padding: 8.5px 12px;
+    border-radius: 4px;
+    font-family: "Public Sans", sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 12px;
+    color: #ffffff;
+    cursor: pointer;
+  }
+
+  .align-button {
+    align-items: center;
+    display: flex !important;
+    justify-content: flex-end;
+  }
+
+  .align-grid {
+    margin-right: 14px;
+  }
